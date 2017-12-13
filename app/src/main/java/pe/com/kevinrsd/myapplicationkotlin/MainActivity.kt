@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val txt=findViewById<TextView>(R.id.txtname)
-        txt.setText(text)
+        val txtname=findViewById<TextView>(R.id.txtname)
+        txtname.setText(text)
     }
 }
